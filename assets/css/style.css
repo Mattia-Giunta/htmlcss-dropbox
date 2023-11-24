@@ -2,5 +2,108 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid lightblue;
+    /* border: 1px solid lightcoral; */
 }
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* barra top di navigazione */
+.nav-container{
+    /* border: 1px dashed black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container div{
+    /* border: 1px dashed red; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-inline: 20px;
+}
+
+.nav-container div a{
+    padding-block: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-container div a button{
+    background-color: #0061ff;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 8px;
+}
+
+/* header prima parte azzurra con jumbo */
+header{
+    background-color: #d7e6fb;
+}
+
+.header-container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.header-container h1{
+    padding-top: 90px;
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+.header-container-flex{
+    display: flex;
+}
+
+.header-text-container{
+    flex-basis: 35%;
+}
+
+.header-text-container a:nth-child(2),
+.header-text-container a:nth-child(3){
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-block: 20px;
+    padding-block: 10px;
+}
+
+.header-text-container a span{
+    color: white;
+    background-color: #0061ff;
+    padding: 10px;
+}
+
+.header-text-container a:last-child{
+    font-size: 50px;
+    padding-top: 50px;
+    display: block;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.header-img-container{
+    flex-basis: 65%;
+
+}
+
+.header-img-container div{
+    position: absolute;
+
+}
+
+.header-img-container img{
+
+    border: 1px dashed black;
+    object-fit: contain;
+    width: 70%;
+    display: block;
+}
+
+/* main elementi centrali */
