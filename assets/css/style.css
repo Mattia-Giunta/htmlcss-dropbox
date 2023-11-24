@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid lightcoral; */
+    border: 1px solid lightcoral;
 }
 
 html{
@@ -100,10 +100,252 @@ header{
 
 .header-img-container img{
 
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
     object-fit: contain;
     width: 70%;
     display: block;
 }
 
 /* main elementi centrali */
+main{
+    margin-top: 150px;
+}
+
+.main-container{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.piano-business h1{
+    font-size: 40px;
+}
+
+.piano-business-radio-button{
+    padding-block: 50px;
+}
+
+.piano-business-radio-button span{
+    padding-right: 30px;
+}
+
+/* rettangoli verticali */
+.piano-business-container{
+    display: flex;
+    justify-content: space-between;
+}
+.piano-business-card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+}
+
+.logo-card{
+    /* border: 1px solid grey; */
+    display: block;
+    text-align: center;
+    padding-block: 10px;
+}
+
+.piano-business-card .card-contenuto{
+    /* border: 1px solid black; */
+    padding-inline: 30px;
+    padding-block: 30px;
+    line-height: 200%;
+}
+
+.card-contenuto ul{
+    list-style-type: none;
+}
+
+.card-contenuto.uno span:last-child{
+    color: grey;
+}
+
+.card-contenuto.tre span:first-of-type a{
+    text-decoration: none;
+    color: white;
+    background-color: #0061ff; 
+    padding: 5px 20px;
+    display: block;
+    text-align: center;
+} 
+
+.card-contenuto.tre span:last-of-type a{
+    color:  #0061ff;
+} 
+
+.piano-business-card hr:last-of-type{
+    color: grey;
+    margin-left: 30px;
+    margin-right: 200px;
+}
+
+.card-contenuto.quattro i{
+    color: #0061ff;
+}
+
+#contattaci-button{
+    padding: 5px 30px;
+    text-align: center;
+    display: block;
+}
+
+
+/* contenitore enterprise */
+.enterprise-box{
+    margin-top: 4%;
+    border: 1px solid grey;    
+}
+
+.enterprise-box>span{
+    display: block;
+    padding-block: 1%;
+    text-align: center;
+}  
+
+.enterprise-box hr{
+    color: grey;
+}    
+
+
+.enterprise-box-banner-top{
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 3%; 
+    padding-left: 2%;  
+}
+
+.enterprise-box-banner-top span{
+    color: white;
+    background-color: #0061ff; 
+    padding: 1% 5%;
+    text-decoration: none;
+}
+
+.enterprise-box-banner-top span a{
+    color: white;
+    text-decoration: none;
+}
+
+.enterprise-box-banner-bottom{
+    padding-block: 2%;
+    padding-right: 30%;
+    padding-left: 2%;
+}
+
+.enterprise-box-banner-bottom span{
+    display: block;
+    padding-bottom: 10%;
+
+}
+
+
+/* container-contatto-dropbox */
+.container-contatto-dropbox{
+    margin-top: 20%;
+    display: flex;
+}
+
+.container-contatto-dropbox figure{
+    flex-basis: 55%;   
+}
+
+.container-contatto-dropbox figure img{
+    width: 100%;   
+    display: block;
+
+
+}
+
+.container-contatto-dropbox div{
+    flex-basis: 45%;
+    padding: 5% 5%;  
+}
+
+.container-contatto-dropbox div h3{
+    font-size: 25px;   
+}
+
+.container-contatto-dropbox div p{
+    padding-block: 5%;   
+}
+
+.container-contatto-dropbox div span{
+    display: block;
+    padding-block: 3%;
+}
+
+.container-contatto-dropbox div span a{
+    border: 1px solid black;
+    padding: 3% 3%;
+    text-decoration: none;
+    color: black;
+}
+
+/* 6 blocchi */
+.sei-blocchi{
+    margin-top: 15%;
+}
+
+.sei-blocchi-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sei-blocchi-container figure{
+    flex-basis: 30%;
+}
+
+.sei-blocchi-container figure img{
+    width: 100%;   
+    display: block;
+    padding-block: 5%;
+}
+
+.sei-blocchi-container figure p{
+    padding-block: 5%;
+}
+
+
+/* section-team */
+.section-team{
+    margin-top: 15%;
+}
+
+.section-team h1{
+    font-size: 40px;
+    padding-right: 30%;
+    margin-bottom: 6%;
+}
+
+/* sezione con i quadrati */
+.sezione-quadrati{
+    margin-top: 15%;
+    border: 1px solid blue;
+    display: flex;
+    background-color: lightgrey;
+}
+
+
+.sezione-quadrati figure{
+    height: 310px;
+    width: 310px;
+    
+}
+
+.sezione-quadrati div{
+   flex-basis: calc(100% / 3);
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between; 
+     
+}
+
+.div-overflow{
+    border: 1px solid black;
+    margin-inline: 11px;
+    
+    
+}
