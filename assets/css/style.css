@@ -41,7 +41,7 @@ html{
 
 /* header prima parte azzurra con jumbo */
 header{
-    background-color: #d7e6fb;
+    background-color: #91a7b9;
 }
 
 .header-container{
@@ -141,14 +141,12 @@ main{
 }
 
 .logo-card{
-    /* border: 1px solid grey; */
     display: block;
     text-align: center;
     padding-block: 10px;
 }
 
 .piano-business-card .card-contenuto{
-    /* border: 1px solid black; */
     padding-inline: 30px;
     padding-block: 30px;
     line-height: 200%;
@@ -160,6 +158,15 @@ main{
 
 .card-contenuto.uno span:last-child{
     color: grey;
+}
+
+.card-contenuto.due li{
+    display: flex;
+    
+}
+.card-contenuto.due li i{
+    padding-top: 5px;
+    
 }
 
 .card-contenuto.tre span:first-of-type a{
@@ -181,7 +188,16 @@ main{
     margin-right: 200px;
 }
 
+.card-contenuto.quattro{
+    display: flex;
+    flex-direction: column;
+}
+.card-contenuto.quattro span{
+    display: flex;
+}
+
 .card-contenuto.quattro i{
+    padding-top: 5px;
     color: #0061ff;
 }
 
@@ -325,27 +341,165 @@ main{
     margin-top: 15%;
     border: 1px solid blue;
     display: flex;
-    background-color: lightgrey;
+    background-color: #f5f5f5;
 }
 
+
+.sezione-quadrati,.primo-gruppo-quadrati,.secondo-gruppo-quadrati{
+    flex-basis: calc(100% / 3 - 7px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    
+    
+}
 
 .sezione-quadrati figure{
     height: 310px;
     width: 310px;
+    background-color: lightgreen;  
+    padding: 10% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.sezione-quadrati figure img{
+    filter: invert(100%);
+    display: block;
+    width: 100%;
     
 }
 
-.sezione-quadrati div{
-   flex-basis: calc(100% / 3);
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between; 
-     
+
+/* colore di sfondo primo gruppo di quadrati */
+.primo-gruppo-quadrati figure:nth-of-type(1){
+    background-color: #a2d39b;    
 }
 
+.primo-gruppo-quadrati figure:nth-of-type(2){
+    background-color: #61082B;   
+}
+
+.primo-gruppo-quadrati figure:nth-of-type(3){
+    background-color: #0093ce;    
+}
+
+.primo-gruppo-quadrati figure:nth-of-type(4){
+    background-color: #ff1c1c;    
+}
+
+
+/* colore di sfondo secondo gruppo di quadrati */
+.secondo-gruppo-quadrati figure:nth-of-type(1){
+    background-color: #D5001F;   
+}
+
+.secondo-gruppo-quadrati figure:nth-of-type(2){
+    background-color: #b4d0e7;    
+}
+
+.secondo-gruppo-quadrati figure:nth-of-type(3){
+    background-color: #0d2481;    
+}
+
+.secondo-gruppo-quadrati figure:nth-of-type(4){
+    background-color: #ffd830;    
+}
+
+
+/* parte centrale quadrati con overflow */
 .div-overflow{
-    border: 1px solid black;
-    margin-inline: 11px;
-    
+    border: 1px solid green;
+}
+
+.div-overflow section{
+    display: block;
+    overflow: auto;
+}
+
+.div-overflow h1{
+    font-size: 80px;
+}
+
+.div-overflow p{
+    max-width: 550px;
+    margin-bottom: 50px;
+}
+
+.div-overflow hr{
+    color: grey;
+    margin-block: 50px;
+    margin-right: 450px;
+}
+
+
+/* sezione banda azzurra */
+.sezione-banda-azzurra{
+    height: 300px;
+    width: 100%;
+    background-color: #b4d0e7;
+}
+
+.sezione-banda-azzurra section{
+    width: 55%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.sezione-banda-azzurra section div{
+    flex-basis: 50%;
+    padding: 50px 0;
     
 }
+
+.sezione-banda-azzurra section div h1{
+    color: #61082b;
+    font-size: 40px;
+}
+
+.sezione-banda-azzurra section div a{
+    text-decoration: none;
+    margin-left: 54%;
+    padding: 10px 20px;
+    color: black;
+    border: none;
+    background-color: white;
+}
+
+
+/* ultima parte del main con tendine */
+.parte-finale{
+    margin-block: 10%;
+
+}
+
+.parte-finale section{
+    width: 55%;
+    margin: 0 auto;
+}
+
+.parte-finale section h1{
+    font-size: 40px;
+}
+
+.parte-finale hr{
+    color: grey;
+    margin-block: 30px;
+}
+
+.parte-finale h4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parte-finale h4 i{
+    margin-right: 3%;
+}
+
+
+
