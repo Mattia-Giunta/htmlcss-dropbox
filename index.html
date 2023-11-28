@@ -13,6 +13,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="shortcut icon" href="./assets/img/dropbox_icon-icons.com_60465.png" type="image/x-icon">
+
     <title>Document</title>
 
 </head>
@@ -52,7 +54,7 @@
                 <span>accedi</span>
             </a>
             <a href="">
-                <button>Inizia</button>
+                <button class="opacity-button">Inizia</button>
             </a>
 
         </div>
@@ -72,9 +74,9 @@
 
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Buisnes è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esitente</p>
                         
-                        <a href=""><span>Inizia la tua prova gratuita</span></a>
+                        <a href=""><span class="opacity-button">Inizia la tua prova gratuita</span></a>
                         <a href="">Annulla in qualsiasi momento</a>
-                        <a href=""><i class="fa-solid fa-arrow-down"></i></a>
+                        <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
 
                         
                     </div>
@@ -132,26 +134,15 @@
                         <div class="card-contenuto due">
 
                             <ul>
-                                <li id="list-intem-uno">
-                                    <i class="fa-solid fa-user"></i>
-                                     1 utente
-                                </li>
-
-                                <li id="list-intem-due">
-                                    <i class="fa-solid fa-folder"></i>
-
-                                    5tb di spazio di archiviazione sicuro
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-share-nodes"></i>
-                                     Funzioni di produttività premium e condivisione file semplice e sicura
-                                </li>
+                                <li><i class="fa-solid fa-user"></i>1 utente</li> 
+                                <li><i class="fa-solid fa-folder"></i>5tb di spazio di archiviazione sicuro</li>
+                                <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione file semplice e sicura</li>
                             </ul>
                             
                         </div>
                         
                         <div class="card-contenuto tre">
-                            <span><a href="">Prova gratis per 30 giorni</a></span>
+                            <span class=".opacity-button"><a href="">Prova gratis per 30 giorni</a></span>
                             <span>oppure <a href="">acquista ora</a></span>
                         </div>
 
@@ -362,89 +353,71 @@
         
         
         <!-- sezione con i quadrati -->
-        <div class="sezione-quadrati">
+        <div id="sezione-quadrati">
 
-            <div class="primo-gruppo-quadrati">
+            <div class="partners-col-left">
                 
-                <figure>
-
+                <figure class="box-green">
                     <img src="./assets/img/designit.svg" alt="">
-                    
                 </figure>
 
-                <figure>
-
+                <figure class="box-darkred">
                     <img src="./assets/img/arizona_state_university.svg" alt="">
-                    
                 </figure>
-
-                <figure>
-
+                    
+                <figure class="box-lightblue">
                     <img src="./assets/img/university_of_florida.svg" alt="">
-
                 </figure>
 
-                <figure>
-
+                <figure class="box-red">
                     <img src="./assets/img/topps.svg" alt="">
-
                 </figure>
+
             </div>
-
-            <div class="div-overflow">
-                
-                <section>
-
-                    <h1>Designit</h1>
-
-                    <p>a <b>wipro</b>company</p>
-
-                    <hr>
-
-                    <p>
-                        "1 membr del nostro team lavorano costantemente in Paesi, fusi orari e
-                        uffici diversi, Ora molte soluzioni sono compatibili con queste esigenze,
-                        ma nessuna è facile quanto Dropbox e Dropbax Paper. Ora molte
-                        soluzioni sono compatibili con queste esigenze, ma nessuna è facie
-                        quanta Dropbox Paper"
-                    </p>   
-
-                    <span>
-                        Morten Thomsen, Global IT Lead
-                    </span>
                     
+            <div class="partners-col-center">
+            
+                <figure>
+                    <img src="./assets/img/designit.svg" alt="">
+                </figure>
 
-                </section>
+                <hr>
+
+                <blockquote>
+                    "1 membr del nostro team lavorano costantemente in Paesi, fusi orari e
+                    uffici diversi, Ora molte soluzioni sono compatibili con queste esigenze,
+                    ma nessuna è facile quanto Dropbox e Dropbax Paper. Ora molte
+                    soluzioni sono compatibili con queste esigenze, ma nessuna è facie
+                    quanta Dropbox Paper"
+                </blockquote>   
+
+                <span>
+                    Morten Thomsen, Global IT Lead
+                </span>
 
             </div>
 
-            <div class="secondo-gruppo-quadrati">
-                <figure>
+            <div class="partners-col-right">
 
+                <figure class="box-red">
                     <img src="./assets/img/world_bicycle_relief.svg" alt="">
-
                 </figure>
-                <figure>
 
+                <figure class="box-grey">
                     <img src="./assets/img/hearst_corp.svg" alt="">
-
                 </figure>
-                <figure>
 
+                <figure class="box-blue">
                     <img src="./assets/img/lonely_planet.svg" alt="">
-
                 </figure>
-                <figure>
 
+                <figure class="box-yellow">
                     <img src="./assets/img/clear_channel.svg" alt="">
-
                 </figure>
 
             </div>
-
-
+            
         </div>
-
 
         <!-- sezione banda azzurra -->
         <div class="sezione-banda-azzurra">
@@ -466,7 +439,7 @@
 
 
         <!-- ultima parte del main con tendine -->
-        <div class="parte-finale">
+        <div class="domande-frequenti">
 
             <div>
 
@@ -476,25 +449,40 @@
 
                     <hr>
 
-                    <h4>
-                        Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
-                        <i class="fa-solid fa-angle-down"></i>
-                    </h4>
+                    <div class="hidden-container">
+
+                        
+                        <div>
+                            <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>    
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, tempore facilis, cum id eum voluptates esse accusamus modi eaque officiis expedita, sit adipisci praesentium iste. Voluptatem doloremque nostrum eos placeat?</p>
+                    </div>
+                    
 
                     <hr>
 
-                    <h4>
-                        Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
-                        <i class="fa-solid fa-angle-down"></i>
-                    </h4>
+                    <div class="hidden-container">
+                        <div>
+                            <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>    
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, tempore facilis, cum id eum voluptates esse accusamus modi eaque officiis expedita, sit adipisci praesentium iste. Voluptatem doloremque nostrum eos placeat?</p>
+                    </div>
+
 
 
                     <hr>
 
-                    <h4>
-                        Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?
-                        <i class="fa-solid fa-angle-down"></i>
-                    </h4>
+                    <div class="hidden-container">
+                        <div>
+                            <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>    
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, tempore facilis, cum id eum voluptates esse accusamus modi eaque officiis expedita, sit adipisci praesentium iste. Voluptatem doloremque nostrum eos placeat?</p>
+                    </div>
+
                     
 
                     <hr>
@@ -618,3 +606,18 @@
 
 </html>
 <!-- esercizio terminato -->
+<!-- modificato con correzione  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
